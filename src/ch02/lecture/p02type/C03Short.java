@@ -11,7 +11,7 @@ public class C03Short {
 		short s1;
 		s1 = 0;
 		s1 = 32767;
-		s1 = 32768; //xxx
+//		s1 = 32768;// 안됨
 		s1 = -32768;
 	}
 
