@@ -1,0 +1,29 @@
+package ch02.lecture.p05print;
+
+import java.util.Scanner;
+
+public class C06Print {
+	//백준 3003번
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		
+		int king = sc.nextInt();
+		int queen = sc.nextInt();
+		int rook = sc.nextInt();
+		int bishop = sc.nextInt();
+		int knight = sc.nextInt();
+		int pawn = sc.nextInt();
+		
+		
+		System.out.printf("%d %d %d %d %d %d",
+				(1-king), (1-queen), (2-rook), 
+				(2-bishop), (2-knight), (8-pawn));
+		
+		
+		
+//		1-a b-1 c-2 d-2 e-2 f-8
+
+	}
+
+}

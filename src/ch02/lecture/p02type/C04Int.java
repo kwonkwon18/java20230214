@@ -7,6 +7,5 @@ public class C04Int {
 	
 	int i1 = -2147483648;
 	
-	
-	
+
 }	
