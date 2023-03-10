@@ -49,8 +49,7 @@ public class BankApplication {
 				System.out.println("===============================");
 
 				for (int i = 0; i < index; i++) {
-					System.out
-							.println(accounts[i].accountNum + "   " + accounts[i].name + "    " + accounts[i].balance);
+					System.out.println(accounts[i].accountNum + "   " + accounts[i].name + "    " + accounts[i].balance);
 				}
 				break;
 			}

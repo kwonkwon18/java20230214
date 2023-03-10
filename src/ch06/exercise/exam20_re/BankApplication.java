@@ -69,9 +69,13 @@ public class BankApplication {
 					if (cur.getAccountNum().equals(a)) {
 						int plus = cur.getBalance() + b;
 						cur.setBalance(plus);
-						break;
+					} else {
+						System.out.println("계좌번호 오류");
+						continue;
 					}
+					break;
 				}
+
 				break;
 			}
 			case 4: {
@@ -89,12 +93,16 @@ public class BankApplication {
 					Account cur = accounts[i];
 					if (cur.getAccountNum().equals(a)) {
 						int minus = cur.getBalance() - b;
-						cur.setBalance(minus);
-						break;
+						cur.setBalance2(minus);
+					} else {
+						System.out.println("계좌번호 오류");
+						continue;
 					}
+					break;
 				}
 				break;
 			}
+
 			case 5: {
 				System.out.println("프로그램 종료");
 				return;
